@@ -6,7 +6,7 @@ public class App {
 
     public static void main(String[] args)
     {
-        port(80);
+        port(8080);
 
         get("/", (req, res) -> "Hello World!");
 
